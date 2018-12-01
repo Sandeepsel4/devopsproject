@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore')" />
+  <Import Project="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\before.MyWebApplication.sln.targets" Condition="exists('C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\before.MyWebApplication.sln.targets')" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>MyWebApplication.sln</SolutionFileName>
+    <SolutionName>MyWebApplication</SolutionName>
+    <SolutionPath>C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and !('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0' or '$(MSBuildToolsVersion)' == '2.0')">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7684309-FEE8-4DBC-A299-A144964BC9C0}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\MyWebApplication.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemGroup>
+    <SolutionConfiguration Include="Debug|Any CPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7684309-FEE8-4DBC-A299-A144964BC9C0}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\MyWebApplication.Tests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|Any CPU">
+      <Configuration>Release</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7684309-FEE8-4DBC-A299-A144964BC9C0}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\MyWebApplication.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{F7684309-FEE8-4DBC-A299-A144964BC9C0}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\MyWebApplication.Tests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter')" />
+  <Import Project="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\after.MyWebApplication.sln.targets" Condition="exists('C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\after.MyWebApplication.sln.targets')" />
+  <Target Name="Rebuild" />
+  <Target Name="Build" />
+  <Target Name="Clean" />
+  <Target Name="Publish" />
+</Project>

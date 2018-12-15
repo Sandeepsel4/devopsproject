@@ -1,0 +1,1 @@
+test automerge feature of the teamcity

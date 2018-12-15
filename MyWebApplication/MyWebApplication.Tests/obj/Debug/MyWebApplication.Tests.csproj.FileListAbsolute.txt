@@ -61,3 +61,6 @@ C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.csproj.CopyComplete
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.pdb
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.dll
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.pdb
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.xml

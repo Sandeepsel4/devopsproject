@@ -10,6 +10,7 @@ C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\MyWebApplication.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\System.Web.Helpers.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\System.Web.Http.dll
@@ -35,6 +36,8 @@ C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\MyWebApplication.dll.config
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.pdb
+C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.xml
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\System.Web.Helpers.xml
@@ -61,6 +64,3 @@ C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.csproj.CopyComplete
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.dll
 C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\obj\Debug\MyWebApplication.Tests.pdb
-C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.dll
-C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.pdb
-C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication.Tests\bin\Debug\nunit.framework.xml

@@ -1,5 +1,5 @@
 ﻿using Autofac.Extras.Moq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using MyWebApplication.Controllers;
 using System;
 using System.Collections.Generic;
@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace MyWebApplication.Controllers.Tests
 {
-    [TestClass()]
+    [TestFixture()]
     public class AccountControllerTests
     {
-        [TestMethod()]
+        [Test()]
         public void AccountControllerTest()
         {
 
@@ -21,13 +21,13 @@ namespace MyWebApplication.Controllers.Tests
             
         }
 
-        [TestMethod()]
+        [Test()]
         public void AccountControllerTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void AuthorizeTest()
         {
             using (var mock = AutoMock.GetLoose())
@@ -39,121 +39,121 @@ namespace MyWebApplication.Controllers.Tests
             }
         }
 
-        [TestMethod()]
+        [Test()]
         public void LoginTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void LoginTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void VerifyCodeTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void VerifyCodeTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void RegisterTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void RegisterTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ConfirmEmailTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ForgotPasswordTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ForgotPasswordTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ForgotPasswordConfirmationTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ResetPasswordTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ResetPasswordTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ResetPasswordConfirmationTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ExternalLoginTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void SendCodeTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void SendCodeTest1()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ExternalLoginCallbackTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ExternalLoginConfirmationTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void LogOffTest()
         {
 
         }
 
-        [TestMethod()]
+        [Test()]
         public void ExternalLoginFailureTest()
         {
 

@@ -1,7 +1,7 @@
 <package>
   <metadata>
     <id>MyWebApplication</id>
-    <version>1.0.30</version>
+    <version>1.0.35</version>
     <authors>SYSTEM</authors>
     <owners>SYSTEM</owners>
     <tags>OctopusDeploy</tags>
@@ -100,7 +100,7 @@
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Content\bootstrap-theme.css.map" target="Content\bootstrap-theme.css.map" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Scripts\jquery-3.3.1.slim.min.map" target="Scripts\jquery-3.3.1.slim.min.map" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Scripts\jquery-3.3.1.min.map" target="Scripts\jquery-3.3.1.min.map" />
-    <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\obj\Debug\MyWebApplication.csproj.CopyComplete" target="bin\obj\Debug\MyWebApplication.csproj.CopyComplete" />
+    <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\obj\Release\MyWebApplication.csproj.CopyComplete" target="bin\obj\Release\MyWebApplication.csproj.CopyComplete" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\bin\ApplicationInsights.config" target="bin\ApplicationInsights.config" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\bin\MyWebApplication.dll.config" target="bin\MyWebApplication.dll.config" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\bin\MyWebApplication.dll" target="bin\MyWebApplication.dll" />

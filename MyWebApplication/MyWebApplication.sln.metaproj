@@ -37,8 +37,8 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <CurrentSolutionConfigurationContents>
       <SolutionConfiguration xmlns="">
-  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
-  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
     </CurrentSolutionConfigurationContents>
     <NuGetRestoreTargets>C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\..\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets</NuGetRestoreTargets>
@@ -66,8 +66,8 @@
       <Platform>Any CPU</Platform>
       <Content>
         <SolutionConfiguration xmlns="">
-  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
-  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
       </Content>
     </SolutionConfiguration>
@@ -87,16 +87,16 @@
       <ToolsVersion>
       </ToolsVersion>
       <SkipNonexistentProjects>False</SkipNonexistentProjects>
-      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
-      <Configuration>Debug</Configuration>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
     </ProjectReference>
     <ProjectReference Include="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj">
       <ToolsVersion>
       </ToolsVersion>
       <SkipNonexistentProjects>False</SkipNonexistentProjects>
-      <AdditionalProperties>Configuration=Debug; Platform=AnyCPU</AdditionalProperties>
-      <Configuration>Debug</Configuration>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
     </ProjectReference>
   </ItemGroup>
@@ -288,35 +288,35 @@
     <MSBuild Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
   </Target>
   <Target Name="MyWebApplication" Outputs="@(MyWebApplicationBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
       <Output TaskParameter="TargetOutputs" ItemName="MyWebApplicationBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="MyWebApplication:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
   </Target>
   <Target Name="MyWebApplication:Rebuild" Outputs="@(MyWebApplicationBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
       <Output TaskParameter="TargetOutputs" ItemName="MyWebApplicationBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="MyWebApplication:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
   </Target>
   <Target Name="MyWebApplicationTests" Outputs="@(MyWebApplicationTestsBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
       <Output TaskParameter="TargetOutputs" ItemName="MyWebApplicationTestsBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="MyWebApplicationTests:Clean">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
   </Target>
   <Target Name="MyWebApplicationTests:Rebuild" Outputs="@(MyWebApplicationTestsBuildOutput)">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
       <Output TaskParameter="TargetOutputs" ItemName="MyWebApplicationTestsBuildOutput" />
     </MSBuild>
   </Target>
   <Target Name="MyWebApplicationTests:Publish">
-    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
   </Target>
 </Project>

@@ -26,8 +26,8 @@
   <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
     <CurrentSolutionConfigurationContents>
       <SolutionConfiguration xmlns="">
-  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
-  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
     </CurrentSolutionConfigurationContents>
   </PropertyGroup>
@@ -37,8 +37,8 @@
       <Platform>Any CPU</Platform>
       <Content>
         <SolutionConfiguration xmlns="">
-  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
-  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B3A87AB9-4E61-4F1E-A21D-06449B1EE6E2}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\MyWebApplication.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{7CF66D1B-EC9B-42D8-A724-D285F46CD374}" AbsolutePath="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplicationTests\MyWebApplicationTests.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
 </SolutionConfiguration>
       </Content>
     </SolutionConfiguration>

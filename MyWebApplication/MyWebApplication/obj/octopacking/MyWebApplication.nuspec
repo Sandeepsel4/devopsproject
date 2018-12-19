@@ -1,14 +1,14 @@
 <package>
   <metadata>
     <id>MyWebApplication</id>
-    <version>1.0.14</version>
+    <version>1.0.30</version>
     <authors>SYSTEM</authors>
     <owners>SYSTEM</owners>
     <tags>OctopusDeploy</tags>
     <licenseUrl>http://example.com</licenseUrl>
     <projectUrl>http://example.com</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The MyWebApplication deployment package, built on 17-12-2018</description>
+    <description>The MyWebApplication deployment package, built on 19-12-2018</description>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>

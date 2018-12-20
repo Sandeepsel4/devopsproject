@@ -1,14 +1,14 @@
 <package>
   <metadata>
     <id>MyWebApplication</id>
-    <version>26</version>
+    <version>55</version>
     <authors>SYSTEM</authors>
     <owners>SYSTEM</owners>
     <tags>OctopusDeploy</tags>
     <licenseUrl>http://example.com</licenseUrl>
     <projectUrl>http://example.com</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The MyWebApplication deployment package, built on 19-12-2018</description>
+    <description>The MyWebApplication deployment package, built on 20-12-2018</description>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
@@ -90,6 +90,7 @@
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Web.Debug.config" target="Web.Debug.config" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Web.Release.config" target="Web.Release.config" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\Scripts\knockout.validation.min.js.map" target="Scripts\knockout.validation.min.js.map" />
+    <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\webapps.nuspec" target="webapps.nuspec" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\fonts\glyphicons-halflings-regular.woff2" target="fonts\glyphicons-halflings-regular.woff2" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\fonts\glyphicons-halflings-regular.woff" target="fonts\glyphicons-halflings-regular.woff" />
     <file src="C:\Users\s.alapati\source\repos\devopsproject\MyWebApplication\MyWebApplication\fonts\glyphicons-halflings-regular.ttf" target="fonts\glyphicons-halflings-regular.ttf" />

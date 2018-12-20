@@ -9,7 +9,7 @@
   </metadata>
   <files>
     <!-- Users -->
-    <file src="MyWebApplication\MyWebApplication\bin\*.dll" target= "MyWebApplication\bin\" />
+    <file src="MyWebApplication\MyWebApplication\bin\*.dll" target= "bin\" />
     <file src="MyWebApplication\MyWebApplication\Global.asax" target="MyWebApplication\" />
     <file src="MyWebApplication\MyWebApplication\Web.config" target="MyWebApplication\" />
     <file src="MyWebApplication\MyWebApplication\Views\Web.config" target="MyWebApplication\Views" />

@@ -9,11 +9,11 @@
   </metadata>
   <files>
     <!-- Users -->
-    <file src="MyWebApplication\MyWebApplication\bin\*.dll" target= "MyWebApplication\MyWebApplication\bin\" />
-    <file src="MyWebApplication\MyWebApplication\Global.asax" target="MyWebApplication\" />
-    <file src="MyWebApplication\MyWebApplication\Web.config" target="MyWebApplication\" />
-    <file src="MyWebApplication\MyWebApplication\Views\Web.config" target="MyWebApplication\Views" />
-    <file src="MyWebApplication\MyWebApplication\Views\**\*.cshtml" target="MyWebApplication\Views" />
-    <file src="MyWebApplication\MyWebApplication\*.config" target="MyWebApplication\" />
+    <file src="MyWebApplication\bin\*.dll" target= "MyWebApplication\bin\" />
+    <file src="MyWebApplication\Global.asax" target="MyWebApplication\" />
+    <file src="MyWebApplication\Web.config" target="MyWebApplication\" />
+    <file src="MyWebApplication\Views\Web.config" target="MyWebApplication\Views" />
+    <file src="MyWebApplication\Views\**\*.cshtml" target="MyWebApplication\Views" />
+    <file src="MyWebApplication\*.config" target="MyWebApplication\" />
   </files>
 </package>

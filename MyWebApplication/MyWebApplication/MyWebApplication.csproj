@@ -349,6 +349,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Scripts\knockout.validation.min.js.map" />
+    <Content Include="webapps.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

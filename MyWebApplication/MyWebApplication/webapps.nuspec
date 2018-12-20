@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>webapps</id>
+    <version>1.0.0</version>
+    <authors>Sandeep</authors>
+    <owners>Sandeep</owners>
+    <description>Web Applications</description>
+  </metadata>
+  <files>
+    <!-- Users -->
+    <file src="MyWebApplication\MyWebApplication\bin\*.dll" target= "MyWebApplication\bin\" />
+    <file src="MyWebApplication\MyWebApplication\Global.asax" target="MyWebApplication\" />
+    <file src="MyWebApplication\MyWebApplication\Web.config" target="MyWebApplication\" />
+    <file src="MyWebApplication\MyWebApplication\Views\Web.config" target="MyWebApplication\Views" />
+    <file src="MyWebApplication\MyWebApplication\Views\**\*.cshtml" target="MyWebApplication\Views" />
+    <file src="MyWebApplication\MyWebApplication\*.config" target="MyWebApplication\" />
+  </files>
+</package>

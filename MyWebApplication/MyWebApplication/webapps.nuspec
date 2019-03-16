@@ -13,7 +13,9 @@
     <file src="MyWebApplication\Global.asax" target="MyWebApplication\" />
     <file src="MyWebApplication\Web.config" target="MyWebApplication\" />
     <file src="MyWebApplication\Views\Web.config" target="MyWebApplication\Views" />
-    <file src="MyWebApplication\Views\**\*.cshtml" target="MyWebApplication\Views" />
-    <file src="MyWebApplication\*.config" target="MyWebApplication\" />
+    <file src="MyWebApplication\Views\**\*.cshtml" target="MyWebApplication\Views" />    
+	<file src="MyWebApplication\Content\*.css" target="MyWebApplication\Content" />
+	<file src="MyWebApplication\fonts\*" target="MyWebApplication\fonts" />
+	<file src="MyWebApplication\Scripts\**\*.js" target="MyWebApplication\Scripts" />
   </files>
 </package>

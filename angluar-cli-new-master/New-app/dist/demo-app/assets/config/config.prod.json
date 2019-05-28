@@ -1,6 +1,6 @@
 {
     "env": {
-        "name": "PROD"
+        "name": "#{Build-variable}"
     },
     "appInsights": {
         "instrumentationKey": "<prod-guid-here>"
